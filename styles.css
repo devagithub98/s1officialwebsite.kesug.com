@@ -1,0 +1,60 @@
+/* Basic styling */
+body {
+    background-image: url(cisf.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+header {
+    background-color:none;
+    color: black;
+    padding: 2px;
+    margin: 0;
+
+}
+
+main {
+    padding: 0px;
+}
+
+ul {
+    list-style-type: circle;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+   
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: none;
+    border: 0px solid white;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #90bf4e;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* Page 2 styling */
+
+#displayArea {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+#content {
+    font-size: 18px;
+    color: #333;
+}
